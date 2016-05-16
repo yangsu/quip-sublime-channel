@@ -1,14 +1,16 @@
 {
-  "schema_version": "2.0",
+  "schema_version": "3.0.0",
   "packages": [
     {
       "name": "Quip Template Syntax",
       "author": "Yang Su (yangsu)",
-      "details": "https://github.com/yangsu/sublime-tornado",
+      "description": "Template syntax for Quip's web framework.",
+      "labels": ["syntax highlight", "python", "html"],
+      "details": "https://github.com/yangsu/sublime-quip-template",
       "releases": [
         {
           "sublime_text": "*",
-          "details": "https://github.com/yangsu/sublime-tornado/tags"
+          "tags": true
         }
       ]
     }
